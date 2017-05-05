@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<servlet>
+		<servlet-name>FindPhotoByTripKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindPhotoByTripKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindPhotoByTripKeyServlet</servlet-name>
+		<url-pattern>/findPhotoByTripKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SavePhotoservlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SavePhotoservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SavePhotoservlet</servlet-name>
+		<url-pattern>/savePhoto</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveImageKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveImageKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveImageKeyServlet</servlet-name>
+		<url-pattern>/saveImageKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateUploadImageServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.CreateUploadImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateUploadImageServlet</servlet-name>
+		<url-pattern>/createUploadImage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetFileContentServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.GetFileContentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetFileContentServlet</servlet-name>
+		<url-pattern>/getFileContent</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteUserServler</servlet-name>
+		<servlet-class>com.mfu.servlet.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteUserServler</servlet-name>
+		<url-pattern>/deleteUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteItemServler</servlet-name>
+		<servlet-class>com.mfu.servlet.DeleteItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteItemServler</servlet-name>
+		<url-pattern>/deleteItem</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>FindPackingListByTripKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindPackingListByTripKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindPackingListByTripKeyServlet</servlet-name>
+		<url-pattern>/findPackingListByTripKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindTodoByTripKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindTodoByTripKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindTodoByTripKeyServlet</servlet-name>
+		<url-pattern>/findTodoByTripKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeletePackingListServler</servlet-name>
+		<servlet-class>com.mfu.servlet.DeletePackingListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeletePackingListServler</servlet-name>
+		<url-pattern>/deletePackingList</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteSuggestedTripsServler</servlet-name>
+		<servlet-class>com.mfu.servlet.DeleteSuggestedTripsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteSuggestedTripsServler</servlet-name>
+		<url-pattern>/deleteSuggestedTrips</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteTodoServler</servlet-name>
+		<servlet-class>com.mfu.servlet.DeleteTodoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteTodoServler</servlet-name>
+		<url-pattern>/deleteTodo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteTripsServler</servlet-name>
+		<servlet-class>com.mfu.servlet.DeleteTripsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteTripsServler</servlet-name>
+		<url-pattern>/deleteTrip</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteSuggestedTodoServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.DeleteSuggestedTodoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteSuggestedTodoServlet</servlet-name>
+		<url-pattern>/deleteSuggestedTodo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindUserByKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindUserByKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindUserByKeyServlet</servlet-name>
+		<url-pattern>/findUserByKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindItemByKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindItemByKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindItemByKeyServlet</servlet-name>
+		<url-pattern>/findItemByKey</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>FindPackingListByKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindPackingListByKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindPackingListByKeyServlet</servlet-name>
+		<url-pattern>/findPackingListByKey</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>FindSuggestedTripsByKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindSuggestedTripsByKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindSuggestedTripsByKeyServlet</servlet-name>
+		<url-pattern>/findSuggestedTripsByKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindTodoByKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindTodoByKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindTodoByKeyServlet</servlet-name>
+		<url-pattern>/findTodoByKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindTripsByKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindTripsByKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindTripsByKeyServlet</servlet-name>
+		<url-pattern>/findTripsByKey</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindTripsByUserKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindTripsByUserKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindTripsByUserKeyServlet</servlet-name>
+		<url-pattern>/findTripByUserKey</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ListAllUserServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllUserServlet</servlet-name>
+		<url-pattern>/listAllUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListAllItemServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllItemServlet</servlet-name>
+		<url-pattern>/listAllItem</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListAllPackingListServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllPackingListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllPackingListServlet</servlet-name>
+		<url-pattern>/listAllPackingList</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListAllSuggestedTripsServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllSuggestedTripsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllSuggestedTripsServlet</servlet-name>
+		<url-pattern>/listAllSuggestedTrips</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListAllTodoServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllTodoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllTodoServlet</servlet-name>
+		<url-pattern>/listAllTodo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListAllTripsServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllTripsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllTripsServlet</servlet-name>
+		<url-pattern>/listAllTrips</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListAllTodoSuggestionServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.ListAllTodoSuggestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAllTodoSuggestionServlet</servlet-name>
+		<url-pattern>/listAllTodoSuggestion</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>SaveToDoSuggestionServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveToDoSuggestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveToDoSuggestionServlet</servlet-name>
+		<url-pattern>/saveTodoSuggestion</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveUserServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveUserServlet</servlet-name>
+		<url-pattern>/saveUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveItemServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveItemServlet</servlet-name>
+		<url-pattern>/saveItem</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SavePackingListServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SavePackingListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SavePackingListServlet</servlet-name>
+		<url-pattern>/savePackingList</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveSuggestedTripsServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveSuggestedTripsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveSuggestedTripsServlet</servlet-name>
+		<url-pattern>/saveSuggestedTrips</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveTodoServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveTodoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveTodoServlet</servlet-name>
+		<url-pattern>/saveTodo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveTripsServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.SaveTripsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveTripsServlet</servlet-name>
+		<url-pattern>/saveTrip</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginMobile</servlet-name>
+		<servlet-class>com.mfu.servlet.LoginMobile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginMobile</servlet-name>
+		<url-pattern>/loginMobile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindSuggestedToDoBySuggestTripKeyServlet</servlet-name>
+		<servlet-class>com.mfu.servlet.FindSuggestedToDoBySuggestTripKeyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindSuggestedToDoBySuggestTripKeyServlet</servlet-name>
+		<url-pattern>/findSuggestToDoBySuggestTripKey</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
